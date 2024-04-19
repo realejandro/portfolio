@@ -1,0 +1,8 @@
+.narbar_container{
+    background-color: black;
+    display: flex;
+}
+
+.link_option_menu{
+    color: white;
+}

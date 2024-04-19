@@ -1,0 +1,75 @@
+
+
+
+#about{
+    height: 100vh;
+    width: 50%;
+}
+
+#about h3{
+    text-align: center;
+}
+/******************Presentation********************/
+.presentation-img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.presentation-text{
+    position: absolute;
+    color: #f8f9fa;
+    
+}
+
+.presentation-text p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+/***************Projects****************/
+#projects{
+    height: 100vh;
+}
+
+#projects h3{
+    text-align: center;
+}
+
+#contact{
+    height: 100vh;
+    width: 100%;
+}
+
+.about{
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.socialmedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medialinks{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+.medialinks:hover{
+    color: #f8f9fa;
+}
+
+.footer{
+    margin-top: auto;
+    color: #f8f9fa;
+    background-color: #212529;
+    width: 100vw;
+}
