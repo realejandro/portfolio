@@ -15,6 +15,21 @@ body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+  
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+
+}
+
+body::-webkit-scrollbar-track{
+  background-color: grey;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #212529;
+  border-radius: 20px;
 }
 
 code {

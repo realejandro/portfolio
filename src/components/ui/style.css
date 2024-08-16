@@ -6,3 +6,21 @@
 .link_option_menu{
     color: white;
 }
+
+.skills {
+    margin-top: 15%;
+}
+
+.card-image-top{
+    cursor: pointer;
+}
+
+.card-image-top:hover {
+    opacity: 0.3;
+}
+
+@media (max-width: 460px){
+    .name-footer{
+        font-size: 0.5rem;
+    }
+}

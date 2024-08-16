@@ -1,16 +1,17 @@
 import React from 'react'
 import Footer from '../ui/Footer';
-import Skills from '../ui/Skills';
 import Experience from '../ui/Experience';
 import About from '../ui/About';
 import './pagesStyles.css';
 
 
 
+
 const MainPage = () => {
   return (
     <>
-        <About />      
+        <About />
+        <h2 className='text-center'>My Best Experience</h2>      
         <Experience />
         <Footer />
     </>

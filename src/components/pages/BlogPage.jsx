@@ -1,10 +1,12 @@
+import { blogs } from "../../data/blogs"
+import Card from './../ui/Card';
 
 export const BlogPage = () => {
   return (
     <div className="container-fluid d-flex justify-content-center">
       <div className="col-6  mt-5">
         <div className="row-9">
-          <h1 style={{ textAlign : "center"}}>
+          <h1 style={{ textAlign : "center"}} className="intro-h1">
             Welcome to my blog
           </h1>
         </div>

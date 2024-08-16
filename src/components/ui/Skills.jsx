@@ -5,31 +5,37 @@ const skills = ["Java", " JavaScript", "MongoDB", "React.js", "MySql", "Selenium
 const Skills = () => {
   
    return (
-    <div className='container-fluid mt-5'>
-        <div>
-        <h3 className='text-center'>Skills</h3>
-        <hr/>
+    <div className='container-fluid d-flex flex-column align-items-center mt-5 skills'>
+        <div className='row mt-5'>
+        <div className="col">
+            <h3 className='text-center'>Skills</h3>
+            <hr/>
         </div>
-        <div className='row' style={{textAlign:'center'}}>
-            <div className='col-4'>
-                <p>Java</p>
-                <p>JavaScript</p>
-                <p>MongoDB</p>
-                <p>React.js</p>
-            </div>
-            <div className='col-4'style={{textAlign:'center'}}> 
-                <p>MySql</p>
-                <p>Selenium</p>
-                <p>Cucumber</p>
-                <p>Express.js</p>
-            </div>
-            <div className='col-4' style={{textAlign:'center'}}>
-                <p>Wordpress</p>
-                <p>Full Stack Development</p>
-                <p>AWS Cloud Testing</p>
-                <p>API Development and Testing</p>
+        </div>
+
+        <div className='col-sm-3 col-md-6 col-lg-12'>
+            <div className='row' style={{textAlign:'center'}}>
+                <div className='col-lg-4 col-md-4 col-sm-12'>
+                    <p>JavaScript</p>
+                    <p>MongoDB</p>
+                    <p>React.js</p>
+                    <p>Full Stack Development</p>
+                </div>
+                <div className='col-lg-4 col-md-4 col-sm-12'style={{textAlign:'center'}}> 
+                    <p>MySql</p>
+                    <p>Selenium</p>
+                    <p>Cucumber</p>
+                    <p>AWS Cloud Testing</p>
+                </div>
+                <div className='col-lg-4 col-md-4 col-sm-12' style={{textAlign:'center'}}>
+                    <p>Wordpress</p>
+                    <p>Java</p>
+                    <p>Express.js</p>
+                    <p>API Development and Testing</p>
+                </div>
             </div>
         </div>
+        
     </div>
   )
 }

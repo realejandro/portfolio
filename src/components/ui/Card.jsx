@@ -1,18 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom';
 
-const Card = ({ id, companyName, description }) => {
+const Card = ({ id, title, description }) => {
+
+  const navigate = useNavigate();
+  const param = useParams();
+
+  const onClickNavigation = () => {
+    navigate(`/project/${id}`);
+  }
+
 
   return (
-
-    <div className='card m-2' style={ {width : "18rem"} }>
-        <img src={ `assert/images/${id}.png` } alt='majdjjsjosd' className='card-image-top'/>
-        <div className="card-body d-flex flex-column align-items-center">
-            <h5 className="card-title"> { companyName }</h5>
-            <p className="card-text"> { description }</p>
-            <Link href="#" className="btn btn-dark" to={`project/${id}`}> Check It Out </Link>
-        </div>
-
+    <div className='col-12 col-md-12 col-lg-4 mt-4'>
+      <div className='card card-style shadow'>
+          <img src={ `assets/images/${id}.png` } alt='majdjjsjosd' className='card-image-top' style={{ height: '100%'}} onClick={ onClickNavigation }/>
+      </div>
     </div>
 
   )
