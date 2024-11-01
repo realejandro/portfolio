@@ -33,11 +33,11 @@ export const companies = [
     },
     {
         'id': "freelance",
-        'title' : "Consulting",
+        'title' : "DM NERD IT Solution",
         'description' : "As a Consulting professional, my journey has been marked by passion, independence, and continuous growth. From launching into the freelance world with determination to building a diverse portfolio of projects, I've honed my skills in SDET and Software Development. The Company DMNERD IT Solutions collaboration has enriched my experience, shaping me into a versatile and reliable partner. I thrive on delivering quality work, adapting to challenges, and forging lasting relationships in the ever-evolving landscape of freelance work.",
         'mission' :"My main task in this company is to create solutions for bugs and use the best software testing methods (smoke, regression, E2E and AUT) for each of our clients.",
         'url':"",
-        'role':'SDET'
+        'role':'SDET & Full Stack Developer'
     },
     
 

@@ -13,7 +13,7 @@ export const BlogPage = () => {
         <div className="row-9 mt-4">
           <p> 
             I will be publishing content about quite interesting Software that can be very helpful! 
-            I hope you like my content and more importantly, it helps you improve your skills.
+            I hope you like my content and more importantly, it helps you improve your skills....
           </p>
         </div>
       </div>
