@@ -9,8 +9,7 @@ const MainPage = () => {
 
   return (
     <>    
-        <About />
-        <h2 className='text-center'>My Best Experience</h2>      
+        <About />      
         <Experience />
         <Footer />
     </>

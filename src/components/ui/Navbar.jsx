@@ -6,7 +6,10 @@ import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
   return (     
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+        </button>
+        
         <div className="container d-md-flex flex-row justify-content-end">
             
             <div className="collapse navbar-collapse" id="navbarScroll">
@@ -27,14 +30,7 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
-            aria-label="Toggle navigation" >
-                <span className="navbar-toggler-icon"></span>
-            </button>
         </div>
-
     </nav>
   )
 }

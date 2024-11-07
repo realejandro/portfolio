@@ -11,6 +11,12 @@
     margin-top: 15%;
 }
 
+
+
+/*******card*********/
+.card-dimension{
+    height: 250px;
+}
 .card-image-top{
     cursor: pointer;
 }

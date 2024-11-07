@@ -8,7 +8,8 @@ import ProjectPage from '../components/pages/ProjectPage'
 import ContactPage from '../components/pages/ContactPage'
 import Skills from '../components/ui/Skills'
 import { Sdet } from '../blogs/Sdet'
-import { CustomersPage } from '../cms/pages'
+import { CustomersPage, UpdateCustomer } from '../cms/pages'
+
 
 
 export const AppRouter = () => {
@@ -24,6 +25,7 @@ export const AppRouter = () => {
             {/*<Route path='skills' element={<Skills/>} /> */}
             <Route path='contact' element={ <ContactPage /> } />
             <Route path='admin' element={ <CustomersPage/> }/>
+            <Route path='admin/:idCustomer' element={ <UpdateCustomer />} />
         </Routes>
     </>
   )

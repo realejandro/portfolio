@@ -12,9 +12,9 @@ const Card = ({ id, title, description }) => {
 
 
   return (
-    <div className='col-12 col-md-12 col-lg-4 mt-4'>
+    <div className='col-12 col-md-12 col-lg-4 mt-4 card-dimension'>
       <div className='card card-style shadow'>
-          <img src={ `assets/images/${id}.png` } alt='majdjjsjosd' className='card-image-top' style={{ height: '100%'}} onClick={ onClickNavigation }/>
+          <img src={ `assets/images/${id}.png` } alt='companies' className='card-image-top' style={{ height: '100%'}} onClick={ onClickNavigation }/>
       </div>
     </div>
 

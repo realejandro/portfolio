@@ -5,4 +5,5 @@ export const getAllCustomers = async() => {
     const customers_db = await resp.json();
 
     return customers_db;
+    
 }
