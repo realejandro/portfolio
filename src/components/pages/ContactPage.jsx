@@ -3,7 +3,7 @@ import './../pages/pagesStyles.css';
 import React, { useState } from 'react'
 
 
-const ContactPage = () => {
+export const ContactPage = () => {
 
     const [message, setMessage] = useState(false);
 
@@ -128,4 +128,3 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage;
