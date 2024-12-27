@@ -1,7 +1,7 @@
 export const blogs = [
     {
         "id":"sdet",
-        "title":"How to be a SDET",
+        "title":"How to be SDET",
         "url":"https://planet-frost-acd.notion.site/Alejandro-Cabrera-SDET-Portfolio-56e39140b78f45f8888d6f1ec876c720",
         "description":"I am giving some advices about how to be tester in the software development life cycle",
     },{
