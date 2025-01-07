@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { getProjectById } from '../../helpers/getProjectById';
 
-const ProjectPage = () => {
+export const CompanyPage = () => {
 
     const { idProject } = useParams();
     const navigate =  useNavigate();
@@ -47,4 +47,3 @@ const ProjectPage = () => {
   )
 }
 
-export default ProjectPage

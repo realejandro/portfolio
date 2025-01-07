@@ -1,7 +1,6 @@
 import React from 'react'
-import Card from '../ui/Card'
 import Modal from '../ui/Modal'
-import { Services } from '../ui/Services'
+import { Card } from '../ui'
 
 const TestingDevelopmentPage = () => {
   return (
@@ -13,9 +12,6 @@ const TestingDevelopmentPage = () => {
         />
         <div>
           <Modal />
-        </div>
-        <div>
-          <Services/>
         </div>
     </>
   )

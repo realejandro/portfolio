@@ -43,14 +43,3 @@ export const companies = [
 
 ]
 
-
-/*
-    {
-        'id': "diaverum",
-        'title' : 'Diaverum',
-        'description' : "Diaverum is a leading global provider of renal care services, specializing in dialysis treatment for patients with kidney disease. Founded in 1991, the company operates clinics in multiple countries, offering personalized care and innovative solutions to improve patients' quality of life. Diaverum focuses on patient-centered care, ensuring accessibility and excellence in renal care services worldwide.",
-        'mission' :"In this project I created a full stack testing framework for the mobile app and the web application to study the functionalities in this architecture",
-        'url':'https://www.diaverum.com/en/home/',
-        'role':'SDET contractor'
-    }
-*/
