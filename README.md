@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Full Stack Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! I am a passionate and dedicated full stack developer with a strong foundation in both frontend and backend technologies. My goal is to design and build scalable, efficient, and user-friendly applications that solve real-world problems.
 
-## Available Scripts
+## Skills and Expertise
 
-In the project directory, you can run:
+### **Full Stack Development**
+- **MERN Stack**: Proficient in building modern web applications using MongoDB, Express.js, React.js, and Node.js.
+- **PERN Stack**: Proficient in building modern web applications using PostgreSQL, Express.js, React.js, and Node.js.
+- **Spring Framework**: Experienced in developing robust and scalable backend services using Java Spring.
+- **Python**: Skilled in writing clean and efficient Python scripts and applications, with a focus on automation and data processing.
 
-### `npm start`
+### **Databases**
+- **SQL**: Expertise in designing and managing relational databases using PostgreSQL and MySQL.
+- **NoSQL**: Hands-on experience with MongoDB and other NoSQL databases for flexible and scalable data storage solutions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **DevOps**
+- **Version Control**: Proficient in using Git and GitHub for collaborative development and version management.
+- **CI/CD Pipelines**: Knowledgeable in setting up continuous integration and deployment pipelines to streamline development workflows.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **System Design**
+- Strong understanding of system architecture and design principles applied to software development.
+- Experience in creating scalable and maintainable system designs that align with business requirements.
 
-### `npm test`
+## Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **WeatherApp**
+A backend-focused application that provides real-time weather data for various locations. Designed and implemented a robust backend using **PostgreSQL** and other technologies to ensure reliability and scalability.
 
-### `npm run build`
+### **[Other Projects Placeholder]**
+(Include brief descriptions of additional projects to showcase your work.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact Me
+Feel free to connect with me to discuss potential collaborations or opportunities:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **LinkedIn**: [https://www.linkedin.com/in/alejcabrera07/]
+- **GitHub**: [https://github.com/realejandro]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+Thank you for visiting my portfolio! Let’s create something amazing together.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -3,7 +3,7 @@ import './style.css';
 import { Link, NavLink } from 'react-router-dom';
 
 
-function Navbar() {
+export const Navbar = () => {
   return (     
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,5 +34,3 @@ function Navbar() {
     </nav>
   )
 }
-
-export default Navbar
