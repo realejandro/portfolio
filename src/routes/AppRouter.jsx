@@ -10,11 +10,36 @@ export const AppRouter = () => {
     <>  
         <Navbar />
         <Routes>
-            <Route path='/' element={ <MainPage /> } />
-            <Route path='blog' element={ <BlogPage />} />
-            <Route path='test' element={<TestingDevelopmentPage />}/>
-            <Route path='project/:idProject' element={ <CompanyPage /> } />
-            <Route path='contact' element={ <ContactPage /> } />
+            <Route 
+              path='/' 
+              element={ 
+                <MainPage /> 
+              } 
+            />
+            <Route 
+              path='blog' 
+              element={ 
+                <BlogPage />
+              } 
+            />
+            <Route 
+              path='test' 
+              element={
+                <TestingDevelopmentPage/>
+                }
+            />
+            <Route 
+              path='project/:idProject' 
+              element={ 
+                <CompanyPage /> 
+              } 
+            />
+            <Route 
+              path='contact' 
+              element={ 
+                <ContactPage /> 
+                } 
+              />
         </Routes>
         
     </>
