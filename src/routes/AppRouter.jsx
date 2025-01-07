@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import TestingDevelopmentPage from '../components/pages/TestingDevelopmentPage'
 import { Navbar } from '../components/ui'
 import { MainPage, BlogPage, ContactPage, CompanyPage } from '../components/pages'
+import Footer from '../components/ui/Footer'
 
 
 export const AppRouter = () => {
@@ -10,30 +11,35 @@ export const AppRouter = () => {
     <>  
         <Navbar />
         <Routes>
+
             <Route 
               path='/' 
               element={ 
                 <MainPage /> 
               } 
             />
+
             <Route 
               path='blog' 
               element={ 
                 <BlogPage />
               } 
             />
+            
             <Route 
               path='test' 
               element={
                 <TestingDevelopmentPage/>
                 }
             />
+
             <Route 
               path='project/:idProject' 
               element={ 
                 <CompanyPage /> 
               } 
             />
+
             <Route 
               path='contact' 
               element={ 
@@ -41,6 +47,8 @@ export const AppRouter = () => {
                 } 
               />
         </Routes>
+
+        <Footer/>
         
     </>
   )

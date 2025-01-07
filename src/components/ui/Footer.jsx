@@ -12,7 +12,7 @@ function Footer() {
                 </div>
 
                 <div className='col'>
-                  <p className='text-center text-light mt-2 name-footer'>Alejandro Cabrera - Software Engineer</p>
+                  <p className='text-center text-light mt-2 name-footer'> Alejandro Cabrera - Full Stack Developer </p>
                 </div>
 
                 <div className='col d-flex justify-content-center'>
@@ -34,12 +34,3 @@ function Footer() {
 
 export default Footer;
 
-
-/* 
-                <div className='p-1'>
-                <a className='medialinks' href='https://github.com/realejandro' target={'_blank'}><i className ="fa-brands fa-github fa-2xl"></i> </a>
-              </div>
-              <div className='p-1'>
-                <a className='medialinks' href='https://www.linkedin.com/in/alejcabrera07/' target={'_blank'}><i className="fa-brands fa-linkedin fa-2xl"></i></a>
-              </div>
-*/
