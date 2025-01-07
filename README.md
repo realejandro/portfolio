@@ -18,6 +18,11 @@ Welcome to my portfolio! I am a passionate and dedicated full stack developer wi
 - **Version Control**: Proficient in using Git and GitHub for collaborative development and version management.
 - **CI/CD Pipelines**: Knowledgeable in setting up continuous integration and deployment pipelines to streamline development workflows.
 
+### **Software Testing**
+- Strong understanding of SDLC and functionalities.
+- Create Automated script and manual testing scripts to improve functionalities in the software with technologies like selenium, cucumber, sql, JDBC and more.
+- Create testing frameworks from scratch
+
 ### **System Design**
 - Strong understanding of system architecture and design principles applied to software development.
 - Experience in creating scalable and maintainable system designs that align with business requirements.
@@ -27,8 +32,11 @@ Welcome to my portfolio! I am a passionate and dedicated full stack developer wi
 ### **WeatherApp**
 A backend-focused application that provides real-time weather data for various locations. Designed and implemented a robust backend using **PostgreSQL** and other technologies to ensure reliability and scalability.
 
-### **[Other Projects Placeholder]**
-(Include brief descriptions of additional projects to showcase your work.)
+### **CLI**
+CMS designed to get the information in the database of a small marketing and finance company.
+
+### **Football App**
+Football Statistics app to show to the fans who is the best player in each position from every league
 
 ## Contact Me
 Feel free to connect with me to discuss potential collaborations or opportunities:
