@@ -12,7 +12,6 @@ const Experience = () => {
             <hr/>
             {
               companies.map( company => {
-                console.log(company.id)
                 return (
                   <Card 
                     key={ company.id }
