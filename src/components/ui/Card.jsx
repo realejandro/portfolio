@@ -1,7 +1,7 @@
-import React from 'react'
-import { useNavigate, useParams } from 'react-router-dom';
 
-export const Card = ({ id, cardType, url }) => {
+import { Link, useNavigate, useParams } from 'react-router-dom';
+
+export const Card = ({ id, cardType, url, title, description }) => {
 
   const navigate = useNavigate();
   const param = useParams();
@@ -10,32 +10,31 @@ export const Card = ({ id, cardType, url }) => {
     navigate(`/project/${id}`);
   }
 
-  const onRepoNavigate = () => {
-    window.location.href= url;
-  }
-
   return (
-    <div className='col-12 col-md-12 col-lg-4 mt-4 card-dimension'>
-      <div className='card card-style shadow'>
-        {
-          ( cardType === 'company') ? 
+    <div className='col-12 col-md-12 col-lg-4 mt-4'>
+      <div className='card card-style shadow'> 
           <img 
             src={ `assets/images/${id}.png` } 
             alt='companies and projects' 
             className='card-image-top' 
-            style={{ height: '100%'}} 
+            style={{ height: "250px"}} 
             onClick={ onClickNavigation }
-          /> 
-          :
-          <img 
-            src={ `assets/images/${id}.png` } 
-            alt='companies and projects' 
-            className='card-image-top' 
-            style={{ height: '100%'}} 
-            onClick={ onRepoNavigate }
-          /> 
-        }
-      </div>
+          />
+          <div className='card-body'>
+            <p className="card-text">{ description }</p>
+            <div className="d-flex flex-row justify-content-center mt-2">
+              <button 
+                  className="btn" 
+                  style={{ 
+                    backgroundColor: "purple", 
+                    color: "white" 
+                  }} 
+                  onClick={onClickNavigation}>
+                READ MORE
+              </button>
+            </div>
+          </div> 
+        </div>
     </div>
 
   )

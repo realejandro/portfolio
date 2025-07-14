@@ -7,7 +7,7 @@ const Experience = () => {
 
   return (
     <div className='container-fluid d-flex justify-content-center experience mt-md-5'>
-          <div className='row w-75 mt-md-5'>
+          <div className='row mt-md-5' style={{"width": "80%"}}>
             <h1>Experience</h1>
             <hr/>
             {
@@ -17,7 +17,8 @@ const Experience = () => {
                   <Card 
                     key={ company.id }
                     id={ company.id }
-                    cardType={'company'}         
+                    cardType={'company'}
+                    description={company.cardDescription}         
                   />
                 )
               })

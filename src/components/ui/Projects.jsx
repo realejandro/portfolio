@@ -1,26 +1,26 @@
-import React from 'react'
 import { projects } from '../../data/projects'
-import { Card } from './Card';
-
+import { ProjectCard } from './ProjectCard'
 
 
 export const Projects = () => {
   return (
-    <div className='container-fluid d-flex justify-content-center experience mt-md-5'>
-      <div className='row w-75 mt-md-5'>
-        <h1>Personal Projects</h1>
-        <hr />
+    <div className='container-fluid d-flex justify-content-center experience mt-md-5 w-80'>
+      <div className='row mt-md-5' style={{width:"85%", margin:"auto" }}>
+        <div>
+          <h1>Personal Projects</h1>
+          <hr />
+        </div>
+        <div className="row row-lg-10">
         {
           projects.map( (project) => {
             console.log(project.id);
-            return(
-            <Card
-              key={ project.id }
-              url={ project.url }
-              { ...project }
-            />)
-          })
+            return (  
+            <div className="col-12 col-md-6 col-lg-4 d-flex mt-5" key={project.id}>
+              <ProjectCard {...project} />
+            </div>
+            )})
         }
+        </div>
       </div>
     </div>
   )
