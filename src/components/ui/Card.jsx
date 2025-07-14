@@ -24,9 +24,8 @@ export const Card = ({ id, cardType, url, title, description }) => {
             <p className="card-text">{ description }</p>
             <div className="d-flex flex-row justify-content-center mt-2">
               <button 
-                  className="btn" 
-                  style={{ 
-                    backgroundColor: "purple", 
+                  className="btn btn-dark" 
+                  style={{  
                     color: "white" 
                   }} 
                   onClick={onClickNavigation}>
