@@ -1,5 +1,5 @@
 import React from 'react';
-import './../pages/pagesStyles.css';
+import '../../pages/pagesStyles.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {

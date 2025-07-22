@@ -30,7 +30,7 @@ export const ContactPage = () => {
         event.preventDefault();
         
         try {
-            const response = await fetch('http://localhost:1337/customers/list/register', {
+            const response = await fetch('https://portfolio-backend-uqik.onrender.com/messages', {
                 method:"POST",
                 headers: {
                     "Content-Type" : "application/json"

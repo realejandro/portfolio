@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { getProjectById } from '../../helpers/getProjectById';
+import { getProjectById } from '../helpers/getProjectById';
 
 export const CompanyPage = () => {
 

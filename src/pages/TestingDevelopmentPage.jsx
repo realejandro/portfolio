@@ -1,6 +1,6 @@
 import React from 'react'
-import Modal from '../ui/Modal'
-import { Card } from '../ui'
+import Modal from '../components/ui/Modal'
+import { Card } from '../components/ui/Card'
 
 const TestingDevelopmentPage = () => {
   return (

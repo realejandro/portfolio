@@ -1,8 +1,7 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import TestingDevelopmentPage from '../components/pages/TestingDevelopmentPage'
+import TestingDevelopmentPage from '../pages/TestingDevelopmentPage'
 import { Navbar } from '../components/ui'
-import { MainPage, BlogPage, ContactPage, CompanyPage } from '../components/pages'
+import { MainPage, BlogPage, ContactPage, CompanyPage } from '../pages'
 
 
 export const AppRouter = () => {
@@ -19,7 +18,7 @@ export const AppRouter = () => {
             <Route 
               path='blog' 
               element={ 
-                <BlogPage />
+                <BlogPage/>
               } 
             />
             <Route 

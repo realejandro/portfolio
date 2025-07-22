@@ -1,8 +1,10 @@
-
+import React from "react"
 
 const SkillsPage = () => {
   return (
-    <div>SkillsPage</div>
+    <div> 
+      SkillsPage 
+    </div>
   )
 }
 
