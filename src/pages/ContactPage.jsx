@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 
 export const ContactPage = () => {
 
+
     const [message, setMessage] = useState(false);
 
     const [ inputs, setInputs ] = useState({
@@ -12,6 +13,8 @@ export const ContactPage = () => {
         email:"",
         message:"",
     });
+
+    console.log(process.env.REACT_APP_URL_BACKEND);
 
     const navigate = useNavigate();
 
@@ -28,9 +31,9 @@ export const ContactPage = () => {
     const handleSubmit = async(event) => {
         
         event.preventDefault();
-        
+
         try {
-            const response = await fetch('https://portfolio-backend-uqik.onrender.com/messages', {
+            const response = await fetch(`${process.env.URL_BACKEND}/messages`, {
                 method:"POST",
                 headers: {
                     "Content-Type" : "application/json"
