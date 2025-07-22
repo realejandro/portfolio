@@ -14,8 +14,6 @@ export const ContactPage = () => {
         message:"",
     });
 
-    console.log(process.env.REACT_APP_URL_BACKEND);
-
     const navigate = useNavigate();
 
     const onClickBackHome = () => {
@@ -33,7 +31,7 @@ export const ContactPage = () => {
         event.preventDefault();
 
         try {
-            const response = await fetch(`${process.env.URL_BACKEND}/messages`, {
+            const response = await fetch(`${process.env.REACT_APP_URL_BACKEND}/messages`, {
                 method:"POST",
                 headers: {
                     "Content-Type" : "application/json"
