@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer>
+    <footer className='mt-5'>
       <div className='container-fluid p-2 bg-dark footer'>
-          <div className='row d-flex align-items-center'> 
-                <div className='col'>
+          <div className='row d-flex flex-column flex-lg-row align-items-center'> 
+                <div className='col-12 col-lg-4'>
                   <p className='text-center text-light contact-link'><Link to={'/contact'} className='nav-link text-light mt-2'>Click here!</Link></p>
                 </div>
 
-                <div className='col'>
+                <div className='col-12 col-lg-4'>
                   <p className='text-center text-light mt-2 name-footer'>Alejandro Cabrera - Software Engineer</p>
                 </div>
 
-                <div className='col d-flex justify-content-center'>
+                <div className='col-12 col-lg-4 d-flex justify-content-center'>
                   <div className='p-2'>
                     <a className='medialinks' href='https://github.com/realejandro' target={'_blank'}><i className ="fa-brands fa-github fa-2xl"></i> </a>
                   </div>

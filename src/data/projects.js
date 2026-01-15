@@ -1,5 +1,14 @@
 export const projects = [
-    
+    {
+        'id': 'gourmet_hound',
+        'title' : 'Gourmet Hound',
+        'description' : 'Built an ecommerce app for Gourmet Hound, a Fulham deli, with Headless WordPress and Next.js, including product catalogue, shopping basket, and responsive layout for local customers',
+        'mission' :'My mission was to adapt both the frontend and backend of the web application using Next.js for the client interface and Strapi as the headless CMS and API.',
+        'url':'https://gourmet-hound.vercel.app/',
+        'url_github':'https://github.com/realejandro/gourmet_hound',
+        'skills':['Next.js', 'Wordpress', 'GraphQL'],
+        'role':'Full Stack Developer'
+    },
     {
         'id': "weather_app",
         'title' : 'WeatherApp',
@@ -58,16 +67,6 @@ export const projects = [
         'url':'https://planet-frost-acd.notion.site/45e6c84aeb1a47fb9287ae7f0bdf8954?v=b3bbca2a8acc4767bb62242a8c0b8bf0',
         'url_github':'https://github.com/lucian1333/TenaciousTigersEtsyGiftCards/tree/main',
         'skills':['java', 'selenium', 'cucumber'],
-        'role':'QA Automation Engineer'
-    },
-    {
-        'id': 'gourmet_hound',
-        'title' : 'Gourmet Hound',
-        'description' : 'Built an ecommerce app for Gourmet Hound, a Fulham deli, with a product catalogue, shopping basket, and responsive layout for local customers.',
-        'mission' :'My mission was to adapt both the frontend and backend of the web application using Next.js for the client interface and Strapi as the headless CMS and API.',
-        'url':'https://gourmethound.co.uk/',
-        'url_github':'',
-        'skills':['Next.js', 'Strapi', 'GraphQL'],
         'role':'QA Automation Engineer'
     },
     {

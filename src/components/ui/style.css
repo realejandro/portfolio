@@ -11,7 +11,18 @@
     margin-top: 15%;
 }
 
+/**projects**/
 
+.responsive-row {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .responsive-row {
+    width: 85%;
+    margin: auto;
+  }
+}
 
 /*******card*********/
 .card-dimension{
